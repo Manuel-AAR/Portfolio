@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Manuel Agüero</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <script src="https://kit.fontawesome.com/86f0efef80.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- Favicons
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+-->
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume - v4.9.2
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+    <style>
+      div h3 {
+        color: #45505b; 
+        font-weight: bold; 
+        text-transform: uppercase;
+      }
+
+      .skills li {
+        list-style: none;
+        display: flex;
+        align-items: center;
+      }
+    </style>
+
+    <script>
+
+        let x = true;
+
+
+        document.addEventListener("DOMContentLoaded", function() {
+            ChangeLanguage();
+        });
+        
+        
+
+        function ChangeLanguage() {
+            if (x) {
+                $(".Spanish").removeAttr("style");
+                $(".English").css({"display": "none"});
+                x = false;
+
+            } else {
+                $(".Spanish").css({"display": "none"});
+                $(".English").removeAttr("style");
+                x = true;
+
+            }
+        }
+    </script>
+
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span class="Spanish">Acerca de mi</span><span class="English">About me</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#" onclick="ChangeLanguage()"><i class="fa-solid fa-language"></i><span class="Spanish">Ingles</span><span class="English">Spanish</span></a></li>
+
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+        <h1>Manuel Agüero</h1>
+        <p>
+            <span class="typed" data-typed-items="Enthusiast, Proactive, Motivated"></span>
+        </p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-3">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3 class="Spanish">Desarrollador de software en crecimiento.</h3>
+            <h3 class="English">Software developer in growth.</h3>
+            <div>
+              <p class="fst-italic Spanish">
+                Soy un joven motivado por los constantes avances tecnologicos, en busca de conocimiento y experiencia en el mundo del desarrollo de software con los cuales pueda incrementar mis habilidades de resolución de problemas y desarrollo de sistemas informaticos.
+              </p>
+              <p class="fst-italic English">
+                I'm highly motivated by the constant evolution of technology, in search of knowledge and experience in the world of software development to increase my problem-solving and computer systems development abilities.
+              </p>
+            </div>
+            
+            <div class="row">
+              <div class="col-lg-6 Spanish">
+                <ul>
+                  <li ><i class="bi bi-chevron-right"></i> <strong>Edad:</strong> <span>19</span></li>
+                  <li ><i class="bi bi-chevron-right"></i> <strong>Ciudad:</strong> <span>Guarenas - Miranda, Venezuela</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6 Spanish">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Telefono:</strong> <span>+58 412 7766883</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Correo:</strong> <span>manuel.aar.2020@gmail.com</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6 English">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>19</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Guarenas - Miranda, Venezuela</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6 English">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+58 412 7766883</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>manuel.aar.2020@gmail.com</span></li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <div class="Spanish">
+                <h3>Mis Cualidades</h3>
+                <ul class="row">
+                  <li style="width: 100%; display: inline-block;"><i class="bi bi-chevron-right"></i><strong>Gran capacidad de adaptabilidad y aprendizaje</strong></li>
+                  <li style="width: auto; display: inline-block;"><i class="bi bi-chevron-right"></i><strong>Motivado</strong></li>
+                  <li style="width: auto; display: inline-block;"><i class="bi bi-chevron-right"></i><strong>Proactivo</strong></li>
+                  <li style="width: auto; display: inline-block;"><i class="bi bi-chevron-right"></i><strong>Perseverante</strong></li>
+                  <li style="width: auto; display: inline-block;"><i class="bi bi-chevron-right"></i><strong>Organizado</strong></li>
+
+                </ul>
+              </div>
+              <div class="English">
+                <h3>My Attributes</h3>
+                <ul class="row">
+                  <li style="width: 100%; display: inline-block;"><i class="bi bi-chevron-right"></i><strong>Great learning and adaptability skills</strong></li>
+                  <li style="width: auto; display: inline-block;"><i class="bi bi-chevron-right"></i><strong>Motivated</strong></li>
+                  <li style="width: auto; display: inline-block;"><i class="bi bi-chevron-right"></i><strong>Proactive</strong></li>
+                  <li style="width: auto; display: inline-block;"><i class="bi bi-chevron-right"></i><strong>Persevering</strong></li>
+                  <li style="width: auto; display: inline-block;"><i class="bi bi-chevron-right"></i><strong>Organized</strong></li>
+
+                </ul>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2 class="Spanish">Conocimientos</h2>
+          <h2 class="English">Knowledge</h2>
+          <p>Dentro de mis Conocimientos actuales se encuentra el manejo de una variedad de lenguajes de programación, manejo de software ofimatica y software de diseño grafico.</p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-4">
+
+            <div class="Subtitle" style="display: flex; justify-content: center; align-items: center;">
+              <h3 class="Spanish knowledge">Desarrollo de software</h3>
+              <h3 class="English knowledge">Software development</h3>
+            </div>
+            
+            <div style="display: flex; justify-content: center; align-items: center;">
+  
+              <div class="progress">
+                <span class="skill" title="HTML5"><i  class='skill-icon bx bxl-html5'></i></span>
+              </div>
+  
+              <div class="progress">
+                <span class="skill" title="CSS3"><i  class='skill-icon bx bxl-css3'></i></span>
+              </div>
+  
+              <div class="progress">
+                <span class="skill" title="Bootstrap"><i class='skill-icon bx bxl-bootstrap'></i></span>
+              </div>
+  
+              <div class="progress">
+                <span class="skill" title="JavaScript"><i class='skill-icon bx bxl-javascript'></i></span>
+              </div>
+  
+              <div class="progress">
+                <span class="skill" title="Jquery"><i class='skill-icon bx bxl-jquery'></i></span>
+              </div>
+            </div>  
+
+            <div style="display: flex; justify-content: center; align-items: center;">
+
+
+              <div class="progress">
+                <span class="skill" title="PHP"><i class='skill-icon bx bxl-php'></i></span>
+              </div>
+  
+              <div class="progress">
+                <span class="skill" title="MySQL"><i class='skill-icon fi fi-brands-mysql'></i></span>
+              </div>
+  
+              <div class="progress">
+                <span class="skill" title="C++"><i class='skill-icon bx bxl-c-plus-plus'></i></span>
+              </div>
+  
+              <div class="progress">
+                <span class="skill" title="Csharp"><i class='skill-icon devicon-csharp-plain'></i></span>
+              </div>
+  
+              <div class="progress">
+                <span class="skill" title=".NET Core"><i class="skill-icon devicon-dotnetcore-plain"></i></span>
+              </div>
+  
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+
+            <div class="Subtitle" style="display: flex; justify-content: center; align-items: center;">
+              <h3 class="Spanish knowledge">Programas</h3>
+              <h3 class="English knowledge">Apps</h3>
+            </div>
+  
+            <div style="display: flex; justify-content: center; align-items: center;">
+  
+              <div class="progress">
+                <span class="skill" title="Vs Code"><i class="skill-icon devicon-vscode-plain"></i></span>
+              </div>
+  
+              <div class="progress">
+                <span class="skill" title="Blender"><i class='skill-icon bx bxl-blender'></i></span>
+              </div>
+  
+              <div class="progress">
+                <span class="skill" title="Microsoft Office"><i class='skill-icon bx bxl-microsoft'></i></span>
+              </div>
+  
+              <div class="progress">
+                <span class="skill" title="Photoshop"><i class="skill-icon fi fi-brands-photoshop"></i></i></span>
+              </div>
+  
+  
+            </div>
+
+          </div>
+
+          <div class="col-lg-4">
+
+            <div class="Subtitle" style="display: flex; justify-content: center; align-items: center;">
+              <h3 class="Spanish knowledge">Idiomas</h3>
+              <h3 class="English knowledge">Languages</h3>
+            </div>
+  
+            <div style="display: flex; justify-content: center; align-items: center;">
+  
+              <ul style="padding: 0;">
+                  <li class="Spanish"><i class="bi bi-chevron-right"></i><h4 class="lang"> Español (nativo)</h4></li>
+                  <li class="English"><i class="bi bi-chevron-right"></i><h4 class="lang"> Spanish (native)</h4></li>
+
+                  <li class="Spanish"><i class="bi bi-chevron-right"></i><h4 class="lang"> Ingles</h4></li>
+                  <li class="English"><i class="bi bi-chevron-right"></i><h4 class="lang"> English</h4></li>
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2 class="English">Education</h2>
+          <h2 class="Spanish">Formación</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="resume-item">
+              <h4 class="Spanish">TSU en informatica</h4>
+              <h4 class="English">Associates degree in computer science</h4>
+              <h5>2020 - 2022</h5>
+              <h6>Culminación de la carga academica, en busca de pasantía</h6>
+              <p><em>UPTAMCA, Miranda, Los teques</em></p>
+            </div>
+            <!--<div class="resume-item">
+              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
+              <h5>2010 - 2014</h5>
+              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+            </div>-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Manuel Agüero</h3>
+      <p class="English">"Anything worth doing well is worth doing poorly at first"  —  G.K.Chesterton</p>
+      <p class="Spanish">"Aquello que valga la pena hacer bien, vale la pena hacerlo mal al inicio"  —  G.K.Chesterton</p>
+      <div class="copyright">
+        &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: [license-url] -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
